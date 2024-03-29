@@ -1,0 +1,47 @@
+# ----- Results HDF files -----
+# 2d files
+filePrefixRes2d  "results2d_" # Filename prefix for 2d h5 datasets
+fileExtRes2d     "h5"         # Filename extension
+grpNameTimeRes2d "data/var2d/time" # HDF group path to time
+grpNameStepRes2d "data/var2d/step" # HDF group path to step
+attrPosRes2d     2 # index of field name in group, e.g., /data/var2d/pr/000100 has "pr" at attrPos=2 (0-based index)
+# 3d files
+filePrefixRes3d  "results3d_" # Filename prefix for 3d h5 datasets
+fileExtRes3d     "h5"         # Filename extension
+grpNameTimeRes3d "data/var3d/time" # HDF group path to time
+grpNameStepRes3d "data/var3d/step" # HDF group path to step
+attrPosRes3d     2 # index of field name in group, e.g., /data/var3d/pr/000100 has "pr" at attrPos=2 (0-based index)
+#
+grpNameCoordsResx "/coords/x" # HDF group path to x,y,z coordinates
+grpNameCoordsResy "/coords/y"
+grpNameCoordsResz "/coords/z"
+#
+# ----- Plt HDF files -----
+# 2d files
+filePrefixPlt2d  "plt2d_" # Filename prefix for 2d h5 datasets
+fileExtPlt2d     "h5"     # Filename extension
+grpNameTimePlt2d "data/var2d/time" # HDF group path to time
+grpNameStepPlt2d "data/var2d/step" # HDF group path to step
+attrPosPlt2d     2 # index of field name in group, e.g., /data/var3d/pr/000100 has "pr" at attrPos=2 (0-based index)
+# 3d files
+filePrefixPlt3d  "plt3d_" # Filename prefix for 3d h5 datasets
+fileExtPlt3d     "h5"     # Filename extension
+grpNameTimePlt3d "data/var3d/time" # HDF group path to time
+grpNameStepPlt3d "data/var3d/step" # HDF group path to step
+attrPosPlt3d     2 # index of field name in group, e.g., /data/var3d/pr/000100 has "pr" at attrPos=2 (0-based index)
+#
+grpNameCoordsPltx "/coords/x" # HDF group path to x,y,z coordinates
+grpNameCoordsPlty "/coords/y"
+grpNameCoordsPltz "/coords/z"
+#
+# ----- Restart HDF files -----
+# 3d files
+filePrefixRestart  "restart_" # Filename prefix for 3d h5 datasets
+fileExtRestart     "h5"     # Filename extension
+grpNameTimeRestart "data/var3d/time" # HDF group path to time
+grpNameStepRestart "data/var3d/step" # HDF group path to step
+attrPosRestart     2 # index of field name in group, e.g., /data/var3d/pr/000100 has "pr" at attrPos=2 (0-based index)
+#
+grpNameCoordsRestx "/coords/x" # HDF group path to x,y,z coordinates
+grpNameCoordsResty "/coords/y"
+grpNameCoordsRestz "/coords/z"
